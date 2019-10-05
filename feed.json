@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://atomas18.github.io/hello-world/map.html",
+            "url": "https://atomas18.github.io/hello-world/map.html",
+            "title": "Map?",
+            "summary": " ",
+            "content_html": "<script src=\"https://unpkg.com/leaflet@1.5.1/dist/leaflet.js\" integrity=\"sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==\" crossorigin=\"\"></script>\n<div id=\"mapid\"> </div>\n<script src=\"https://dl.dropbox.com/s/0z6y4u49lo7s2ez/test.js\"></script>\n<script>// <![CDATA[\nvar map = L.map('mapid');\n\nL.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {\nmaxZoom: 18,\nattribution: 'Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, ' +\n'<a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, ' +\n'Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>',\nid: 'mapbox.satellite'\n}).addTo(map);\n\nvar data = getData();\nvar geo = L.geoJSON(data, {});\nmap.fitBounds(geo.getBounds(), {padding: [20,20]});\ngeo.addTo(map);\n// ]]></script>",
+            "author": {
+                "name": "Thomas"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-10-05T14:44:57+02:00",
+            "date_modified": "2019-10-05T14:46:17+02:00"
+        },
+        {
             "id": "https://atomas18.github.io/hello-world/interaktive-karte.html",
             "url": "https://atomas18.github.io/hello-world/interaktive-karte.html",
             "title": "Interaktive Karte",

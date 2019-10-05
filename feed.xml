@@ -3,12 +3,50 @@
     <title>Map demo</title>
     <link href="https://atomas18.github.io/hello-world/feed.xml" rel="self" />
     <link href="https://atomas18.github.io/hello-world" />
-    <updated>2019-10-05T14:39:27+02:00</updated>
+    <updated>2019-10-05T14:46:33+02:00</updated>
     <author>
         <name>Thomas</name>
     </author>
     <id>https://atomas18.github.io/hello-world</id>
 
+    <entry>
+        <title>Map?</title>
+        <author>
+            <name>Thomas</name>
+        </author>
+        <link href="https://atomas18.github.io/hello-world/map.html"/>
+        <id>https://atomas18.github.io/hello-world/map.html</id>
+
+        <updated>2019-10-05T14:46:17+02:00</updated>
+            <summary>
+                <![CDATA[
+                     
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+<div id="mapid"> </div>
+<script src="https://dl.dropbox.com/s/0z6y4u49lo7s2ez/test.js"></script>
+<script>// <![CDATA[
+var map = L.map('mapid');
+
+L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+maxZoom: 18,
+attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+id: 'mapbox.satellite'
+}).addTo(map);
+
+var data = getData();
+var geo = L.geoJSON(data, {});
+map.fitBounds(geo.getBounds(), {padding: [20,20]});
+geo.addTo(map);
+// ]]></script>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Interaktive Karte</title>
         <author>
