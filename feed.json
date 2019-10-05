@@ -26,14 +26,15 @@
             "id": "https://atomas18.github.io/hello-world/interaktive-karte.html",
             "url": "https://atomas18.github.io/hello-world/interaktive-karte.html",
             "title": "Interaktive Karte",
-            "content_html": "<iframe width=\"616\" height=\"400\" src=\"https://atomas18.github.io/map/\"></iframe>",
+            "summary": "Selektieren des grünen Felds zeigt die Initialen des Paten.",
+            "content_html": "<p>Selektieren des grünen Felds zeigt die Initialen des Paten.</p>\n<iframe width=\"616\" height=\"400\" src=\"https://atomas18.github.io/map/\"></iframe>",
             "author": {
                 "name": "Thomas"
             },
             "tags": [
             ],
             "date_published": "2019-10-05T14:23:53+02:00",
-            "date_modified": "2019-10-05T15:31:47+02:00"
+            "date_modified": "2019-10-05T19:39:45+02:00"
         }
     ]
 }
