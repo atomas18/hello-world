@@ -1,0 +1,55 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Hello World",
+    "description": "",
+    "home_page_url": "https://atomas18.github.io/hello-world",
+    "feed_url": "https://atomas18.github.io/hello-world/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Thomas"
+    },
+    "items": [
+        {
+            "id": "https://atomas18.github.io/hello-world/another-post-but-excluded.html",
+            "url": "https://atomas18.github.io/hello-world/another-post-but-excluded.html",
+            "title": "Another post, but excluded",
+            "summary": "some stuff to find only via menu",
+            "content_html": "some stuff to find only via menu",
+            "author": {
+                "name": "Thomas"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-10-05T11:37:14+02:00",
+            "date_modified": "2019-10-05T11:37:14+02:00"
+        },
+        {
+            "id": "https://atomas18.github.io/hello-world/second-post.html",
+            "url": "https://atomas18.github.io/hello-world/second-post.html",
+            "title": "Second post",
+            "summary": "another message",
+            "content_html": "another message",
+            "author": {
+                "name": "Thomas"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-10-05T11:36:17+02:00",
+            "date_modified": "2019-10-05T11:36:17+02:00"
+        },
+        {
+            "id": "https://atomas18.github.io/hello-world/first-title.html",
+            "url": "https://atomas18.github.io/hello-world/first-title.html",
+            "title": "First, title",
+            "summary": "first, message",
+            "content_html": "first, message",
+            "author": {
+                "name": "Thomas"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-10-05T11:32:34+02:00",
+            "date_modified": "2019-10-05T11:32:34+02:00"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Hello World</title>
+    <link href="https://atomas18.github.io/hello-world/feed.xml" rel="self" />
+    <link href="https://atomas18.github.io/hello-world" />
+    <updated>2019-10-05T11:40:12+02:00</updated>
+    <author>
+        <name>Thomas</name>
+    </author>
+    <id>https://atomas18.github.io/hello-world</id>
+
+    <entry>
+        <title>Another post, but excluded</title>
+        <author>
+            <name>Thomas</name>
+        </author>
+        <link href="https://atomas18.github.io/hello-world/another-post-but-excluded.html"/>
+        <id>https://atomas18.github.io/hello-world/another-post-but-excluded.html</id>
+
+        <updated>2019-10-05T11:37:14+02:00</updated>
+            <summary>
+                <![CDATA[
+                    some stuff to find only via menu
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                some stuff to find only via menu
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Second post</title>
+        <author>
+            <name>Thomas</name>
+        </author>
+        <link href="https://atomas18.github.io/hello-world/second-post.html"/>
+        <id>https://atomas18.github.io/hello-world/second-post.html</id>
+
+        <updated>2019-10-05T11:36:17+02:00</updated>
+            <summary>
+                <![CDATA[
+                    another message
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                another message
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>First, title</title>
+        <author>
+            <name>Thomas</name>
+        </author>
+        <link href="https://atomas18.github.io/hello-world/first-title.html"/>
+        <id>https://atomas18.github.io/hello-world/first-title.html</id>
+
+        <updated>2019-10-05T11:32:34+02:00</updated>
+            <summary>
+                <![CDATA[
+                    first, message
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                first, message
+            ]]>
+        </content>
+    </entry>
+</feed>
