@@ -1,6 +1,6 @@
 ---
 title: Ted
-position: Writer
+position: 0
 short_name: ted
 name: Ted Doe
 ---
