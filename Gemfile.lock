@@ -261,7 +261,7 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-feed
-  minima
+  jekyll-theme-slate
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
