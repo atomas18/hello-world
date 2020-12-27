@@ -1,6 +1,5 @@
 ---
-title: Ted
-position: 0
+job_title: Writer
 short_name: ted
 name: Ted Doe
 ---

@@ -1,6 +1,5 @@
 ---
-title: Jill
-position: 0
+job_title: Chief Editor
 short_name: jill
 name: Jill Smith
 ---
