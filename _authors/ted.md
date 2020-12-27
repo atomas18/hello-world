@@ -1,4 +1,5 @@
 ---
+title: Ted
 job_title: Writer
 short_name: ted
 name: Ted Doe
