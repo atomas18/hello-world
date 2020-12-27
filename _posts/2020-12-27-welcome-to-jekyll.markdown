@@ -1,9 +1,6 @@
 ---
 title: Welcome to Jekyll!
 date: 2020-12-27 08:09:19 Z
-categories:
-- jekyll
-- update
 layout: default
 ---
 
