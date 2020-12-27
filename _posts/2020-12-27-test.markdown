@@ -4,3 +4,5 @@ date: 2020-12-27 13:27:00 +01:00
 ---
 
 Test post
+
+![photo-1551221236-6f908cc5838a.jpg](/uploads/photo-1551221236-6f908cc5838a.jpg)
