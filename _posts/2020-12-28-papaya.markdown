@@ -1,7 +1,7 @@
 ---
 title: Papaya
 date: 2020-12-28 17:18:00 +01:00
-featured_file: photo-1551221236-6f908cc5838a.jpg
+featured_file: "/uploads/photo-1551221236-6f908cc5838a.jpg"
 ---
 
 It's also a fruit.
