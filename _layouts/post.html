@@ -2,14 +2,17 @@
 ---
 
 <h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
 
 <p>
-    {{ page.date | date_to_string }}
-    {% assign author = site.authors | where: 'short_name', page.author | first %}
-    {% if author %}
-      - <a href="{{ site.baseurl }}{{ author.url }}">{{ author.name }}</a>
-    {% endif %}
-  </p>
-  
-  {{ content }}
+  {{ page.date | date_to_string }}
+  {% assign author = site.authors | where: 'short_name', page.author | first %}
+  {% if author %}
+    - <a href="{{ site.baseurl }}{{ author.url }}">{{ author.name }}</a>
+  {% endif %}
+</p>
+
+{{ content }}
+
+{% if page.featured_upload and page.featured_upload != "" and page.featured_upload != nil %}
+  <img src="{{ site.baseurl }}/uploads/{{page.featured_upload}}" alt="">
+{% endif %}
