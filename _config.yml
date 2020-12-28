@@ -42,3 +42,4 @@ plugins:
 - jekyll-paginate
 paginate: 2
 paginate_path: "/blog/page:num/"
+repository: atomas18/hello-world
