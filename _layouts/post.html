@@ -14,5 +14,5 @@
 {{ content }}
 
 {% if page.featured_file and page.featured_file != "" and page.featured_file != nil %}
-  <img src="{{ site.baseurl }}/uploads/{{page.featured_file}}" alt="">
+  <img src="{{ site.baseurl }}{{page.featured_file}}" alt="">
 {% endif %}
