@@ -39,3 +39,6 @@ plugins:
 - jekyll-feed
 - jekyll-sitemap
 - jekyll-seo-tag
+- jekyll-paginate
+paginate: 2
+paginate_path: "/blog/page:num/"
