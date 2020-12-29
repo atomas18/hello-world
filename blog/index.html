@@ -3,32 +3,44 @@ title: Blog
 layout: default
 ---
 
-<h1>Latest Posts</h1>
+<div class="container">
 
-<ul>
-  {% for post in paginator.posts %}
-    <li>
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+  <div class="row">
 
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">
-      Previous
-    </a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">
-    Page: {{ paginator.page }} of {{ paginator.total_pages }}
-  </span>
-  {% if paginator.next_page %}
-    <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
+    <h1 class="mt-4 mb-3">Latest Posts</h1>
+
+    {% for post in paginator.posts %}
+      <div class="card mb-4">
+        <!-- <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap"> -->
+        <div class="card-body">
+          <h2 class="card-title">{{ post.title }}</h2>
+          <p class="card-text">{{ post.excerpt }}</p>
+          <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary">Read More &rarr;</a>
+        </div>
+      </div>
+    {% endfor %}
+
+    <!-- Pagination links -->
+    <ul class="pagination justify-content-center mb-4">
+      {% if paginator.previous_page %}
+        <li class="page-item">
+          <a class="page-link" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">&larr; Newer</a>
+        </li>
+      {% else %}
+        <li class="page-item disabled">
+          <a class="page-link" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">&larr; Newer</a>
+        </li>
+      {% endif %}
+      {% if paginator.next_page %}
+        <li class="page-item">
+          <a class="page-link" href="{{ site.baseurl }}{{ paginator.next_page_path }}">Older &rarr;</a>
+        </li>
+      {% else %}
+      <li class="page-item disabled">
+        <a class="page-link" href="{{ site.baseurl }}{{ paginator.next_page_path }}">Older &rarr;</a>
+      </li>
+      {% endif %}
+    </ul>
+
+  </div>
 </div>
