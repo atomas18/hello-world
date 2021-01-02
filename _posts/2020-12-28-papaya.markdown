@@ -1,10 +1,9 @@
 ---
 title: Papaya
 date: 2020-12-28 17:18:00 +01:00
-featured_file: "/uploads/photo-1551221236-6f908cc5838a.jpg"
 ---
 
-It's also a fruit.
+It's also a fruit, so let's talk about it.
 
 Maybe it grows here? 
 Here's a link to a page: [About]({{site.baseurl}}{% link about.md %})
