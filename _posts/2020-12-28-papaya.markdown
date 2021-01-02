@@ -10,3 +10,5 @@ Maybe it grows here?
 ![photo-1551221236-6f908cc5838a.jpg](/uploads/photo-1551221236-6f908cc5838a.jpg)
 
 Here's a link to a page: [About]({{site.baseurl}}{% link about.md %})
+
+Same, but absolute: [About](/about.html)
