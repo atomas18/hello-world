@@ -11,4 +11,4 @@ Maybe it grows here?
 
 Here's a link to a page: [About]({{site.baseurl}}{% link about.md %})
 
-Same, but absolute: [About](/about.html)
+Same, but root relative: [About](/about.html)
