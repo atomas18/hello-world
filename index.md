@@ -2,8 +2,8 @@
 title: Home
 ---
 
-<h1>This is a blog about fruit</h1>
+<h1>Regenwald-Institut e.V.</h1>
 
-But not really... It is a playground for me to try stuff out.
+Institut für angewandten Regenwaldschutz
 
 Based on github repositories located [here](https://github.com/atomas18/).
