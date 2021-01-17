@@ -6,6 +6,6 @@ title: About
 
 This page would tell you a little bit about us.
 
-Here's a link to a blog post named [Papaya]( {{ site.baseurl}}{% post_url 2020-12-28-papaya %} )
+Here's a link to a blog post named [Strawberry](/2021/01/07/strawberry.html)
 
 Same, but root relative: [Papaya](/2020/12/28/papaya.html)
